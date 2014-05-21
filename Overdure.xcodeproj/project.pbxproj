@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B27CBC05192C44580066B198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CBC04192C44580066B198 /* Foundation.framework */; };
+		B27CBC07192C44580066B198 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CBC06192C44580066B198 /* CoreGraphics.framework */; };
+		B27CBC09192C44580066B198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CBC08192C44580066B198 /* UIKit.framework */; };
+		B27CBC0F192C44580066B198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B27CBC0D192C44580066B198 /* InfoPlist.strings */; };
+		B27CBC11192C44580066B198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBC10192C44580066B198 /* main.m */; };
+		B27CBC15192C44580066B198 /* KJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBC14192C44580066B198 /* KJAppDelegate.m */; };
+		B27CBC18192C44580066B198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27CBC16192C44580066B198 /* Main.storyboard */; };
+		B27CBC1B192C44580066B198 /* KJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBC1A192C44580066B198 /* KJViewController.m */; };
+		B27CBC1D192C44580066B198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27CBC1C192C44580066B198 /* Images.xcassets */; };
+		B27CBC24192C44580066B198 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CBC23192C44580066B198 /* XCTest.framework */; };
+		B27CBC25192C44580066B198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CBC04192C44580066B198 /* Foundation.framework */; };
+		B27CBC26192C44580066B198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CBC08192C44580066B198 /* UIKit.framework */; };
+		B27CBC2E192C44580066B198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B27CBC2C192C44580066B198 /* InfoPlist.strings */; };
+		B27CBC30192C44580066B198 /* OverdureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBC2F192C44580066B198 /* OverdureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B27CBC27192C44580066B198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27CBBF9192C44580066B198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27CBC00192C44580066B198;
+			remoteInfo = Overdure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B27CBC01192C44580066B198 /* Overdure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overdure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27CBC04192C44580066B198 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B27CBC06192C44580066B198 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B27CBC08192C44580066B198 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B27CBC0C192C44580066B198 /* Overdure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdure-Info.plist"; sourceTree = "<group>"; };
+		B27CBC0E192C44580066B198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B27CBC10192C44580066B198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B27CBC12192C44580066B198 /* Overdure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Overdure-Prefix.pch"; sourceTree = "<group>"; };
+		B27CBC13192C44580066B198 /* KJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJAppDelegate.h; sourceTree = "<group>"; };
+		B27CBC14192C44580066B198 /* KJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAppDelegate.m; sourceTree = "<group>"; };
+		B27CBC17192C44580066B198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B27CBC19192C44580066B198 /* KJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJViewController.h; sourceTree = "<group>"; };
+		B27CBC1A192C44580066B198 /* KJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJViewController.m; sourceTree = "<group>"; };
+		B27CBC1C192C44580066B198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B27CBC22192C44580066B198 /* OverdureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverdureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27CBC23192C44580066B198 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B27CBC2B192C44580066B198 /* OverdureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverdureTests-Info.plist"; sourceTree = "<group>"; };
+		B27CBC2D192C44580066B198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B27CBC2F192C44580066B198 /* OverdureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverdureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B27CBBFE192C44580066B198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27CBC07192C44580066B198 /* CoreGraphics.framework in Frameworks */,
+				B27CBC09192C44580066B198 /* UIKit.framework in Frameworks */,
+				B27CBC05192C44580066B198 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27CBC1F192C44580066B198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27CBC24192C44580066B198 /* XCTest.framework in Frameworks */,
+				B27CBC26192C44580066B198 /* UIKit.framework in Frameworks */,
+				B27CBC25192C44580066B198 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B27CBBF8192C44580066B198 = {
+			isa = PBXGroup;
+			children = (
+				B27CBC0A192C44580066B198 /* Overdure */,
+				B27CBC29192C44580066B198 /* OverdureTests */,
+				B27CBC03192C44580066B198 /* Frameworks */,
+				B27CBC02192C44580066B198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B27CBC02192C44580066B198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27CBC01192C44580066B198 /* Overdure.app */,
+				B27CBC22192C44580066B198 /* OverdureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27CBC03192C44580066B198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27CBC04192C44580066B198 /* Foundation.framework */,
+				B27CBC06192C44580066B198 /* CoreGraphics.framework */,
+				B27CBC08192C44580066B198 /* UIKit.framework */,
+				B27CBC23192C44580066B198 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B27CBC0A192C44580066B198 /* Overdure */ = {
+			isa = PBXGroup;
+			children = (
+				B27CBC13192C44580066B198 /* KJAppDelegate.h */,
+				B27CBC14192C44580066B198 /* KJAppDelegate.m */,
+				B27CBC16192C44580066B198 /* Main.storyboard */,
+				B27CBC19192C44580066B198 /* KJViewController.h */,
+				B27CBC1A192C44580066B198 /* KJViewController.m */,
+				B27CBC1C192C44580066B198 /* Images.xcassets */,
+				B27CBC0B192C44580066B198 /* Supporting Files */,
+			);
+			path = Overdure;
+			sourceTree = "<group>";
+		};
+		B27CBC0B192C44580066B198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B27CBC0C192C44580066B198 /* Overdure-Info.plist */,
+				B27CBC0D192C44580066B198 /* InfoPlist.strings */,
+				B27CBC10192C44580066B198 /* main.m */,
+				B27CBC12192C44580066B198 /* Overdure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B27CBC29192C44580066B198 /* OverdureTests */ = {
+			isa = PBXGroup;
+			children = (
+				B27CBC2F192C44580066B198 /* OverdureTests.m */,
+				B27CBC2A192C44580066B198 /* Supporting Files */,
+			);
+			path = OverdureTests;
+			sourceTree = "<group>";
+		};
+		B27CBC2A192C44580066B198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B27CBC2B192C44580066B198 /* OverdureTests-Info.plist */,
+				B27CBC2C192C44580066B198 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B27CBC00192C44580066B198 /* Overdure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27CBC33192C44590066B198 /* Build configuration list for PBXNativeTarget "Overdure" */;
+			buildPhases = (
+				B27CBBFD192C44580066B198 /* Sources */,
+				B27CBBFE192C44580066B198 /* Frameworks */,
+				B27CBBFF192C44580066B198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overdure;
+			productName = Overdure;
+			productReference = B27CBC01192C44580066B198 /* Overdure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B27CBC21192C44580066B198 /* OverdureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27CBC36192C44590066B198 /* Build configuration list for PBXNativeTarget "OverdureTests" */;
+			buildPhases = (
+				B27CBC1E192C44580066B198 /* Sources */,
+				B27CBC1F192C44580066B198 /* Frameworks */,
+				B27CBC20192C44580066B198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27CBC28192C44580066B198 /* PBXTargetDependency */,
+			);
+			name = OverdureTests;
+			productName = OverdureTests;
+			productReference = B27CBC22192C44580066B198 /* OverdureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27CBBF9192C44580066B198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Koby Jordan";
+				TargetAttributes = {
+					B27CBC21192C44580066B198 = {
+						TestTargetID = B27CBC00192C44580066B198;
+					};
+				};
+			};
+			buildConfigurationList = B27CBBFC192C44580066B198 /* Build configuration list for PBXProject "Overdure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B27CBBF8192C44580066B198;
+			productRefGroup = B27CBC02192C44580066B198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B27CBC00192C44580066B198 /* Overdure */,
+				B27CBC21192C44580066B198 /* OverdureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B27CBBFF192C44580066B198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27CBC1D192C44580066B198 /* Images.xcassets in Resources */,
+				B27CBC0F192C44580066B198 /* InfoPlist.strings in Resources */,
+				B27CBC18192C44580066B198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27CBC20192C44580066B198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27CBC2E192C44580066B198 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27CBBFD192C44580066B198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27CBC1B192C44580066B198 /* KJViewController.m in Sources */,
+				B27CBC11192C44580066B198 /* main.m in Sources */,
+				B27CBC15192C44580066B198 /* KJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27CBC1E192C44580066B198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27CBC30192C44580066B198 /* OverdureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B27CBC28192C44580066B198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27CBC00192C44580066B198 /* Overdure */;
+			targetProxy = B27CBC27192C44580066B198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B27CBC0D192C44580066B198 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27CBC0E192C44580066B198 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B27CBC16192C44580066B198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27CBC17192C44580066B198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B27CBC2C192C44580066B198 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27CBC2D192C44580066B198 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B27CBC31192C44590066B198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B27CBC32192C44590066B198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27CBC34192C44590066B198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdure/Overdure-Prefix.pch";
+				INFOPLIST_FILE = "Overdure/Overdure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B27CBC35192C44590066B198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdure/Overdure-Prefix.pch";
+				INFOPLIST_FILE = "Overdure/Overdure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B27CBC37192C44590066B198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Overdure.app/Overdure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdure/Overdure-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OverdureTests/OverdureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B27CBC38192C44590066B198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Overdure.app/Overdure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdure/Overdure-Prefix.pch";
+				INFOPLIST_FILE = "OverdureTests/OverdureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B27CBBFC192C44580066B198 /* Build configuration list for PBXProject "Overdure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27CBC31192C44590066B198 /* Debug */,
+				B27CBC32192C44590066B198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27CBC33192C44590066B198 /* Build configuration list for PBXNativeTarget "Overdure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27CBC34192C44590066B198 /* Debug */,
+				B27CBC35192C44590066B198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B27CBC36192C44590066B198 /* Build configuration list for PBXNativeTarget "OverdureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27CBC37192C44590066B198 /* Debug */,
+				B27CBC38192C44590066B198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B27CBBF9192C44580066B198 /* Project object */;
+}
