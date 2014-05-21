@@ -21,6 +21,10 @@
 		B27CBC26192C44580066B198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CBC08192C44580066B198 /* UIKit.framework */; };
 		B27CBC2E192C44580066B198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B27CBC2C192C44580066B198 /* InfoPlist.strings */; };
 		B27CBC30192C44580066B198 /* OverdureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBC2F192C44580066B198 /* OverdureTests.m */; };
+		B27CBC3B192C44F40066B198 /* KJAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBC3A192C44F40066B198 /* KJAddTaskViewController.m */; };
+		B27CBC3E192C45130066B198 /* KJDetailTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBC3D192C45130066B198 /* KJDetailTaskViewController.m */; };
+		B27CBC41192C45240066B198 /* KJEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBC40192C45240066B198 /* KJEditTaskViewController.m */; };
+		B2E6E335192C6E5400623048 /* KJTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E6E334192C6E5400623048 /* KJTasks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +38,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B27CBC01192C44580066B198 /* Overdure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overdure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27CBC01192C44580066B198 /* Overdue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overdue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27CBC04192C44580066B198 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B27CBC06192C44580066B198 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B27CBC08192C44580066B198 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B27CBC0C192C44580066B198 /* Overdure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdure-Info.plist"; sourceTree = "<group>"; };
+		B27CBC0C192C44580066B198 /* Overdue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue-Info.plist"; sourceTree = "<group>"; };
 		B27CBC0E192C44580066B198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B27CBC10192C44580066B198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B27CBC12192C44580066B198 /* Overdure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Overdure-Prefix.pch"; sourceTree = "<group>"; };
+		B27CBC12192C44580066B198 /* Overdue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Overdue-Prefix.pch"; sourceTree = "<group>"; };
 		B27CBC13192C44580066B198 /* KJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJAppDelegate.h; sourceTree = "<group>"; };
 		B27CBC14192C44580066B198 /* KJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAppDelegate.m; sourceTree = "<group>"; };
 		B27CBC17192C44580066B198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B27CBC19192C44580066B198 /* KJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJViewController.h; sourceTree = "<group>"; };
 		B27CBC1A192C44580066B198 /* KJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJViewController.m; sourceTree = "<group>"; };
 		B27CBC1C192C44580066B198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B27CBC22192C44580066B198 /* OverdureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverdureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27CBC22192C44580066B198 /* OverdueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverdueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27CBC23192C44580066B198 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B27CBC2B192C44580066B198 /* OverdureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverdureTests-Info.plist"; sourceTree = "<group>"; };
+		B27CBC2B192C44580066B198 /* OverdueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverdueTests-Info.plist"; sourceTree = "<group>"; };
 		B27CBC2D192C44580066B198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B27CBC2F192C44580066B198 /* OverdureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverdureTests.m; sourceTree = "<group>"; };
+		B27CBC39192C44F40066B198 /* KJAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAddTaskViewController.h; sourceTree = "<group>"; };
+		B27CBC3A192C44F40066B198 /* KJAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAddTaskViewController.m; sourceTree = "<group>"; };
+		B27CBC3C192C45130066B198 /* KJDetailTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJDetailTaskViewController.h; sourceTree = "<group>"; };
+		B27CBC3D192C45130066B198 /* KJDetailTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJDetailTaskViewController.m; sourceTree = "<group>"; };
+		B27CBC3F192C45240066B198 /* KJEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJEditTaskViewController.h; sourceTree = "<group>"; };
+		B27CBC40192C45240066B198 /* KJEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJEditTaskViewController.m; sourceTree = "<group>"; };
+		B2E6E333192C6E5400623048 /* KJTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTasks.h; sourceTree = "<group>"; };
+		B2E6E334192C6E5400623048 /* KJTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTasks.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +104,8 @@
 		B27CBC02192C44580066B198 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B27CBC01192C44580066B198 /* Overdure.app */,
-				B27CBC22192C44580066B198 /* OverdureTests.xctest */,
+				B27CBC01192C44580066B198 /* Overdue.app */,
+				B27CBC22192C44580066B198 /* OverdueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +129,13 @@
 				B27CBC16192C44580066B198 /* Main.storyboard */,
 				B27CBC19192C44580066B198 /* KJViewController.h */,
 				B27CBC1A192C44580066B198 /* KJViewController.m */,
+				B27CBC39192C44F40066B198 /* KJAddTaskViewController.h */,
+				B27CBC3A192C44F40066B198 /* KJAddTaskViewController.m */,
+				B27CBC3C192C45130066B198 /* KJDetailTaskViewController.h */,
+				B27CBC3D192C45130066B198 /* KJDetailTaskViewController.m */,
+				B27CBC3F192C45240066B198 /* KJEditTaskViewController.h */,
+				B27CBC40192C45240066B198 /* KJEditTaskViewController.m */,
+				B2E6E332192C6E2C00623048 /* Models */,
 				B27CBC1C192C44580066B198 /* Images.xcassets */,
 				B27CBC0B192C44580066B198 /* Supporting Files */,
 			);
@@ -126,10 +145,10 @@
 		B27CBC0B192C44580066B198 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B27CBC0C192C44580066B198 /* Overdure-Info.plist */,
+				B27CBC0C192C44580066B198 /* Overdue-Info.plist */,
 				B27CBC0D192C44580066B198 /* InfoPlist.strings */,
 				B27CBC10192C44580066B198 /* main.m */,
-				B27CBC12192C44580066B198 /* Overdure-Prefix.pch */,
+				B27CBC12192C44580066B198 /* Overdue-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,18 +165,27 @@
 		B27CBC2A192C44580066B198 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B27CBC2B192C44580066B198 /* OverdureTests-Info.plist */,
+				B27CBC2B192C44580066B198 /* OverdueTests-Info.plist */,
 				B27CBC2C192C44580066B198 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B2E6E332192C6E2C00623048 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2E6E333192C6E5400623048 /* KJTasks.h */,
+				B2E6E334192C6E5400623048 /* KJTasks.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B27CBC00192C44580066B198 /* Overdure */ = {
+		B27CBC00192C44580066B198 /* Overdue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B27CBC33192C44590066B198 /* Build configuration list for PBXNativeTarget "Overdure" */;
+			buildConfigurationList = B27CBC33192C44590066B198 /* Build configuration list for PBXNativeTarget "Overdue" */;
 			buildPhases = (
 				B27CBBFD192C44580066B198 /* Sources */,
 				B27CBBFE192C44580066B198 /* Frameworks */,
@@ -167,14 +195,14 @@
 			);
 			dependencies = (
 			);
-			name = Overdure;
+			name = Overdue;
 			productName = Overdure;
-			productReference = B27CBC01192C44580066B198 /* Overdure.app */;
+			productReference = B27CBC01192C44580066B198 /* Overdue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B27CBC21192C44580066B198 /* OverdureTests */ = {
+		B27CBC21192C44580066B198 /* OverdueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B27CBC36192C44590066B198 /* Build configuration list for PBXNativeTarget "OverdureTests" */;
+			buildConfigurationList = B27CBC36192C44590066B198 /* Build configuration list for PBXNativeTarget "OverdueTests" */;
 			buildPhases = (
 				B27CBC1E192C44580066B198 /* Sources */,
 				B27CBC1F192C44580066B198 /* Frameworks */,
@@ -185,9 +213,9 @@
 			dependencies = (
 				B27CBC28192C44580066B198 /* PBXTargetDependency */,
 			);
-			name = OverdureTests;
+			name = OverdueTests;
 			productName = OverdureTests;
-			productReference = B27CBC22192C44580066B198 /* OverdureTests.xctest */;
+			productReference = B27CBC22192C44580066B198 /* OverdueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B27CBBFC192C44580066B198 /* Build configuration list for PBXProject "Overdure" */;
+			buildConfigurationList = B27CBBFC192C44580066B198 /* Build configuration list for PBXProject "Overdue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +246,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B27CBC00192C44580066B198 /* Overdure */,
-				B27CBC21192C44580066B198 /* OverdureTests */,
+				B27CBC00192C44580066B198 /* Overdue */,
+				B27CBC21192C44580066B198 /* OverdueTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,8 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27CBC3B192C44F40066B198 /* KJAddTaskViewController.m in Sources */,
 				B27CBC1B192C44580066B198 /* KJViewController.m in Sources */,
+				B27CBC41192C45240066B198 /* KJEditTaskViewController.m in Sources */,
 				B27CBC11192C44580066B198 /* main.m in Sources */,
+				B2E6E335192C6E5400623048 /* KJTasks.m in Sources */,
+				B27CBC3E192C45130066B198 /* KJDetailTaskViewController.m in Sources */,
 				B27CBC15192C44580066B198 /* KJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +301,7 @@
 /* Begin PBXTargetDependency section */
 		B27CBC28192C44580066B198 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B27CBC00192C44580066B198 /* Overdure */;
+			target = B27CBC00192C44580066B198 /* Overdue */;
 			targetProxy = B27CBC27192C44580066B198 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -334,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -366,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -378,9 +410,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Overdure/Overdure-Prefix.pch";
-				INFOPLIST_FILE = "Overdure/Overdure-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Overdure/Overdue-Prefix.pch";
+				INFOPLIST_FILE = "Overdure/Overdue-Info.plist";
+				PRODUCT_NAME = Overdue;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +423,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Overdure/Overdure-Prefix.pch";
-				INFOPLIST_FILE = "Overdure/Overdure-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Overdure/Overdue-Prefix.pch";
+				INFOPLIST_FILE = "Overdure/Overdue-Info.plist";
+				PRODUCT_NAME = Overdue;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +445,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "OverdureTests/OverdureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "OverdureTests/OverdueTests-Info.plist";
+				PRODUCT_NAME = OverdueTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +463,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Overdure/Overdure-Prefix.pch";
-				INFOPLIST_FILE = "OverdureTests/OverdureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "OverdureTests/OverdueTests-Info.plist";
+				PRODUCT_NAME = OverdueTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B27CBBFC192C44580066B198 /* Build configuration list for PBXProject "Overdure" */ = {
+		B27CBBFC192C44580066B198 /* Build configuration list for PBXProject "Overdue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B27CBC31192C44590066B198 /* Debug */,
@@ -450,21 +482,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B27CBC33192C44590066B198 /* Build configuration list for PBXNativeTarget "Overdure" */ = {
+		B27CBC33192C44590066B198 /* Build configuration list for PBXNativeTarget "Overdue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B27CBC34192C44590066B198 /* Debug */,
 				B27CBC35192C44590066B198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B27CBC36192C44590066B198 /* Build configuration list for PBXNativeTarget "OverdureTests" */ = {
+		B27CBC36192C44590066B198 /* Build configuration list for PBXNativeTarget "OverdueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B27CBC37192C44590066B198 /* Debug */,
 				B27CBC38192C44590066B198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

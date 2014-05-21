@@ -12,8 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIView appearance] setTintColor:[UIColor whiteColor]];
     // Override point for customization after application launch.
     return YES;
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

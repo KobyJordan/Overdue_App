@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B27CBC00192C44580066B198"
-               BuildableName = "Overdure.app"
-               BlueprintName = "Overdure"
-               ReferencedContainer = "container:Overdure.xcodeproj">
+               BuildableName = "Overdue.app"
+               BlueprintName = "Overdue"
+               ReferencedContainer = "container:Overdue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B27CBC21192C44580066B198"
-               BuildableName = "OverdureTests.xctest"
-               BlueprintName = "OverdureTests"
-               ReferencedContainer = "container:Overdure.xcodeproj">
+               BuildableName = "OverdueTests.xctest"
+               BlueprintName = "OverdueTests"
+               ReferencedContainer = "container:Overdue.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B27CBC00192C44580066B198"
-            BuildableName = "Overdure.app"
-            BlueprintName = "Overdure"
-            ReferencedContainer = "container:Overdure.xcodeproj">
+            BuildableName = "Overdue.app"
+            BlueprintName = "Overdue"
+            ReferencedContainer = "container:Overdue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B27CBC00192C44580066B198"
-            BuildableName = "Overdure.app"
-            BlueprintName = "Overdure"
-            ReferencedContainer = "container:Overdure.xcodeproj">
+            BuildableName = "Overdue.app"
+            BlueprintName = "Overdue"
+            ReferencedContainer = "container:Overdue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B27CBC00192C44580066B198"
-            BuildableName = "Overdure.app"
-            BlueprintName = "Overdure"
-            ReferencedContainer = "container:Overdure.xcodeproj">
+            BuildableName = "Overdue.app"
+            BlueprintName = "Overdue"
+            ReferencedContainer = "container:Overdue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
